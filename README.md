@@ -7,6 +7,7 @@
 - [Shipping Options](#shipping-options)
 - [Pricing Structure](#pricing-structure)
 - [Python Program](#python-program)
+- [Finding the Best Option for a Customer](#finding-the-best-option-for-a-customer)
 
 ## Overview
 I was required to write a Python program for Sal's Shipping.
@@ -43,6 +44,40 @@ Flat charge: $125.00
 | Over 6 lb but less than or equal to 10 lb	| $12.00	| $0.00 |
 | Over 10 lb	| $14.25	| $0.00 |
 
-
 ## Python Program
-The file *INSERT* contains the Python Program to help Sal's Shipping customers select the best option for their shipping needs.
+The file [here](https://github.com/sarahm44/sals-shipping-project/blob/main/sals_shipping.py) contains the Python Program to help Sal's Shipping customers select the best option for their shipping needs.
+
+I used if/elif/else statements to define the pricing structure set out above, per this image:
+
+![""](https://github.com/sarahm44/sals-shipping-project/blob/main/python_code.png)
+
+## Finding the Best Option for a Customer
+### For a 4.8 pound package
+I used the code to answer the question:
+
+* *What is the cheapest method of shipping a 4.8 pound package and how much would it cost?*
+
+To do so I defined the weight variable as per the below:
+
+![""](https://github.com/sarahm44/sals-shipping-project/blob/main/weight_variable_4.8.png)
+
+The output from running the code is:
+
+![""](https://github.com/sarahm44/sals-shipping-project/blob/main/output_4.8.png)
+
+As such, the cheapest option for the customer is **Ground Shipping** for a price of **$34.40**.
+
+### For a 41.5 pound package
+I used the code to answer the question:
+
+* *What is the cheapest method of shipping a 41.5 pound package and how much would it cost?*
+
+To do so I defined the weight variable as per the below:
+
+![""](https://github.com/sarahm44/sals-shipping-project/blob/main/weight_variable.png)
+
+The output from running the code is:
+
+![""](https://github.com/sarahm44/sals-shipping-project/blob/main/output.png)
+
+As such, the cheapest option for the customer is **Ground Shipping Premium** for a price of **$125**.
